@@ -229,10 +229,9 @@ Si accedes a `localhost` verás que obtienes una página `403 Forbidden`. Corrig
 
 > 🧲 Incluye un GIF donde se visualize que se puede acceder por `localhost`.
 
-
-
-
-
+<br>
+<hr>
+<br>
 
 ## Ejercicio 2  (5 ptos)
 
@@ -326,7 +325,9 @@ Imagen de Docker: nombreusuario/relax:1.0
 > 🧲 8.2 Adjunta captura desde DockerHub, donde se visualize tu repositorio y la imagen subida al mismo
 
 
-
+<br>
+<hr>
+<br>
 
 ## Ejercicio Extra 1  (Extra 1,5 ptos)
 
@@ -358,8 +359,9 @@ Para ello, crea un fichero de configuración para el dominio `buendescanso.local
 
 > 🧲 2. Adjunta GIF accediendo a la página web `buendescanso.local` y como se redirige al nuevo dominio.<br>
 
-
-
+<br>
+<hr>
+<br>
 
 ## Ejercicio Extra 2  (Extra 1,5 ptos)
 
