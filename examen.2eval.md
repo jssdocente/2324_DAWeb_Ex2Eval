@@ -121,21 +121,7 @@ server {
 
 Para poder probar la aplicación en local, se va a utilizar un fichero docker-compose que levante dos contenedores, uno con la aplicación web y otro con la base de datos MySQL.
 
-
-### Partes a entregar
-
-#### 1.1 Estructura de carpetas
-
-Se debe crear una estructura de carpetas adecuada para el proyecto, que contenga el código fuente de la aplicación, así como los ficheros de configuración necesarios, tanto para probar probar la configuración, como para empaquetar para el despliegue.
-
-> 📄 Explica cada una de las carpetas y archivos, indicando que funcionalidad tiene, qué ficheros se van a alojar en ella, explicando para cada uno de ellos su función/utilidad.
-
-
-> 🧲 Captura de la estructura de carpetas, donde se visualize claramente el nombre de las carpetas y archivos.
-
-
-
-#### 1.2 Docker-compose
+#### Docker-compose
 
 Se dispone de un fichero `docker-compose.yml` base que hay que configurar con la configuración específica para este caso.
 
@@ -185,6 +171,27 @@ volumes:
        driver: local
 ```
 
+### Pasos de la tarea
+
+- [X] 1.1 Crear la estructura de carpetas para probar la aplicación en local
+- [X] 1.2.1a Crear el fichero docker-compose y explicación del mismo, para probar la aplicación en local. 
+- [X] 1.2.1b Conexión a la BD desde MySQL Workbench
+- [X] 1.2.2 Aplicación Web funcionando
+- [X] 1.2.3 Modificación configuración Nginx solucionar problema 403 Forbidden
+
+
+### Partes a entregar
+
+#### 1.1 Estructura de carpetas
+
+Se debe crear una estructura de carpetas adecuada para el proyecto, que contenga el código fuente de la aplicación, así como los ficheros de configuración necesarios, tanto para probar probar la configuración, como para empaquetar para el despliegue.
+
+> 📄 Explica cada una de las carpetas y archivos, indicando que funcionalidad tiene, qué ficheros se van a alojar en ella, explicando para cada uno de ellos su función/utilidad.
+
+
+> 🧲 Captura de la estructura de carpetas, donde se visualize claramente el nombre de las carpetas y archivos.
+
+
 #### 1.2.1 Entrega de la configuración de docker-compose
 
 Comenta las líneas del fichero `docker-compose.yml` que has incluiudos, indicando qué hace cada línea, a través de un comentario en el propio fichero.
@@ -224,6 +231,9 @@ Si accedes a `localhost` verás que obtienes una página `403 Forbidden`. Corrig
 
 
 
+
+
+
 ## Ejercicio 2  (5 ptos)
 
 En base a la tarea [TE6.2](https://github.com/jssfpciclos/DAW_daweb/blob/main/UT6/TE6.2/te62_tarea.md), se pide realizar el siguiente ejercicio.
@@ -258,7 +268,7 @@ Imagen de Docker: nombreusuario/relax:1.0
 
 <hr>
 
-#### Pasos de la tarea
+### Pasos de la tarea
 
 - [X] 1. Crear la estructura de carpetas para probar la aplicación en local / empaquetar para el despliegue.
 - [X] 2. Crear el fichero docker-compose para probar la aplicación en local. 
@@ -330,7 +340,7 @@ Para ello, crea un fichero de configuración para el dominio `buendescanso.local
 > De este tema no se ha realizado ninguna práctica, pero la documentación está disponible en los [apuntes](https://github.com/jssfpciclos/DAW_daweb/blob/main/UT4/README.md#redirecciones) y también existe mucha documentación en la web.
 
 
-#### Pasos de la tarea
+### Pasos de la tarea
 
 - [X] 0. Breve explicación de cómo conseguir esto.
 - [X] 1. Crea una configuración para este nuevo dominio.
@@ -377,7 +387,7 @@ También se requiere que las personas que accedan por `http://relax.local` sean 
 >    - localhost www.relax.local relax.local
 
 
-#### Pasos de la tarea
+### Pasos de la tarea
 
 - [X] 0. Breve explicación de cómo conseguir esto.
 - [X] 1. Crea una configuración para este nuevo dominio.
