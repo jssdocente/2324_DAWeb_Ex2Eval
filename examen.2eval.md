@@ -365,7 +365,7 @@ Para ello, crea un fichero de configuración para el dominio `buendescanso.local
 
 ## Ejercicio Extra 2  (Extra 1,5 ptos)
 
-En base al ejercicio extra 1, se requiere configurar un certificado `autofirmado` para que Google no penaliza al sitio web de esta empresa, ya que actualmente solo se puede acceder por `http`. 
+En base al ejercicio 2, se requiere configurar un certificado `autofirmado` para que Google no penaliza al sitio web de esta empresa, ya que actualmente solo se puede acceder por `http`. 
 
 Es decir que si un usuario accede a `http://relax.local` sea redirigido a `https://relax.local`.
 
